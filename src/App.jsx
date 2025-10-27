@@ -1,12 +1,18 @@
 import React from "react";
+import AddTodo from "./components/AddTodo"
+import Todos from "./components/Todos"
+
 
 function App() {
   return (
     <>
     <div className="min-h-screen bg-gray-100 p-4">
       <h1 className="text-center text-4xl font-bold">
-        Hello Naman your solution of vitereact is working well
+        Learn about Redux Toolkit
       </h1>
+
+      <AddTodo />
+      <Todos />
     </div>
     </>
   );
